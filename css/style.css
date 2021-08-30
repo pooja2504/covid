@@ -1,0 +1,59 @@
+*{
+	padding: 0px;
+	margin: 0px;
+
+}
+.wrapper{
+	background: 
+	background-size:cover;
+
+}
+.navbar{
+	height: 80px;
+	background-color: lightgray;
+	width: 800;
+
+}
+.navbar ul{
+	float: right;
+	margin-right: 20px;
+
+}
+.navbar ul li{
+	list-style: none;
+	margin: 0 80px;
+	display: inline-block;
+	line-height: 80px;
+
+}
+.navbar ul li a{
+	text text-decoration: none;
+	color: black;
+	font-size: 20px;
+	font-family: sans-serif;
+
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+	background:blue;
+	border-radius: 2px;
+
+}
+.wrapper .center{
+	position: absolute;
+	top: 50px;
+	left: 55px;
+	transform: translate(-50%,-50%);
+	font-family: sans-serif;
+	user-select: none;
+
+}
+.center h1{
+	font-size: 80px;
+	text-align: center;
+	margin-top: 150px;
+	color:black;
+}
+body{
+	background: url("img/5.JPG");
+}
